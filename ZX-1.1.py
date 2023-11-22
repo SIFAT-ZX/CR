@@ -1,4 +1,4 @@
-I'm#dec by MR-SIFAT
+#dec by MR-SIFAT
 from bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
 import os
